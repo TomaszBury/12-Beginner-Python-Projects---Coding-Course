@@ -15,6 +15,8 @@ verb1 = input("Verb: ")
 verb2 = input("Verb: ")
 famous_person = input("Famous person: ")
 
-madlib = f" Computer programming is so {adj}! It makes me so exlited all the time because I love to {verb1}. Stay hydrated {verb2} like you are {famous_person}"
+madlib = f"\nComputer programming is so {adj}! \n" + \
+    f"It makes me so exlited all the time because I love to {verb1}. \n" + \
+    f"Stay hydrated {verb2} like you are {famous_person}.\n\n"
 
 print(madlib)
