@@ -16,6 +16,7 @@ def get_valid_word(words):
 
 def hangman():
     word = get_valid_word(words)
+    # print(word) <-- for debugging purposes.
     # set of letters
     # Set items are unordered, unchangeable, and do not allow duplicate values.
     word_letters = set(word)
@@ -44,6 +45,7 @@ def hangman():
             print('Invalid character. Please try again.')
 
     # when len(word_letters) == 0
+    print(f'God game! Word: {word}')
 
 
 # user_input = input('Type something: ')
